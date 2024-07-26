@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.content-box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 3px solid #fff; /* Frame around the box */
+}
+
+#home .content-box {
+    text-align: center;
+    background-color: #ffeb3b;
+    color: #333;
+    border: 3px solid #333; /* Frame for home box */
+}
+
+#home h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333; /* Dark color for heading */
+}
+
+#about .content-box {
+    background-color: #03a9f4;
+    color: #fff;
+    border: 3px solid #333; /* Frame for about box */
+}
+
+#about h2 {
+    color: #333; /* Dark color for heading */
+}
+
+#skills .content-box {
+    background-color: #8bc34a;
+    color: #fff;
+    border: 3px solid #333; /* Frame for skills box */
+}
+
+#skills h2 {
+    color: #333; /* Dark color for heading */
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill {
+    background-color: #33691e;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 100px;
+}
+
+.skill i {
+    font-size: 2em;
+}
+
+.skill span {
+    display: block;
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+#projects .content-box {
+    background-color: #ff5722;
+    color: #fff;
+    border: 3px solid #333; /* Frame for projects box */
+}
+
+#projects h2 {
+    color: #333; /* Dark color for heading */
+}
+
+#contact .content-box {
+    background-color: #9c27b0;
+    color: #fff;
+    border: 3px solid #333; /* Frame for contact box */
+}
+
+#contact h2 {
+    color: #333; /* Dark color for heading */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
